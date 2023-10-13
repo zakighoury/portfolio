@@ -210,7 +210,7 @@ nav ul li :hover{
     border-radius: 40px;
     overflow: hidden;
     width: 92%;
-    height: 50svh;
+    height: auto;
     text-transform: uppercase;
    
     color: #fff;
