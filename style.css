@@ -690,10 +690,10 @@ button:hover{
       position: fixed;
       top: 175px;
       line-height: 45px;
-      padding: 100px;
+      padding: 100px 10px;
       left: 0;
       width: 100%;
-      /* letter-spacing: 2px; */
+     letter-spacing: 2px; 
       height:8vh;
       background-color: #fff;
       display: flex;
