@@ -368,7 +368,8 @@ nav ul li :hover{
   .tproject{
     color: #fff;
     text-align: center;
-    padding: 40px;
+/*     padding: 40px; */
+    margin: 9px 35px 61px 16px;
     font-weight: 700;
     font-size: 4vw;
   }
@@ -667,6 +668,15 @@ button:hover{
   @media (max-width: 1024px) {
       nav ul{
               display: none;
+  }
+        .Navbar__Link-toggle {
+      align-self: flex-end;
+      display: flex;
+      justify-content: end;
+      /* position: absolute; */
+      cursor: pointer;
+      
+     } 
   }
   @media (max-width: 767px) {
     .Navbar__Link-toggle {
