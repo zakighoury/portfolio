@@ -664,6 +664,10 @@ button:hover{
   .Navbar__Link-toggle {
     display: none;
   }
+  @media (max-width: 1024px) {
+      nav{
+              display: none;
+  }
   @media (max-width: 767px) {
     .Navbar__Link-toggle {
       align-self: flex-end;
