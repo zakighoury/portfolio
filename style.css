@@ -665,7 +665,7 @@ button:hover{
     display: none;
   }
   @media (max-width: 1024px) {
-      nav{
+      nav ul{
               display: none;
   }
   @media (max-width: 767px) {
