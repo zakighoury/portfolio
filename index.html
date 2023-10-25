@@ -367,37 +367,6 @@
     });
     
 
-    var i = 0;
-
-function progress() {
-  if (i == 0) {
-    i = 1;
-    var elem = document.getElementById("progressBar");
-    var content = document.getElementById("content");
-    var width = 1; // Start at 1%
-    var id = setInterval(frame, 10);
-
-    function frame() {
-      if (width >= 100) {
-        clearInterval(id);
-        i = 0;
-
-        // Hide the progress bar and show the content when loading is complete
-        elem.style.display = "none";
-        content.style.display = "block";
-      } else {
-        width++;
-        elem.style.width = width + "%";
-        elem.innerHTML = width + "%";
-      }
-    }
-  }
-}
-
-// Simulate loading by calling the progress function
-window.addEventListener('load', function () {
-  progress();
-});
 
 
 
