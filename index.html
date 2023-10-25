@@ -5,11 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Explore Muhammad Zaki's web development portfolio showcasing HTML, CSS, and JavaScript skills. See a diverse range of projects and work that demonstrates expertise in modern web development.">
+  <meta name="description"
+    content="Explore Muhammad Zaki's web development portfolio showcasing HTML, CSS, and JavaScript skills. See a diverse range of projects and work that demonstrates expertise in modern web development.">
   <meta name="author" content="Muhammad Zaki">
   <meta name="keywords" content="web development, HTML, CSS, JavaScript, portfolio, web developer, Muhammad Zaki">
 
- <title>Zaki | Web Developer Portfolio</title>
+  <title>Zaki | Web Developer Portfolio</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,27 +24,31 @@
 
 <body>
   <header>
-    <section class="social-icon">
+    <div id="Progress">
+      <div id="progressBar">1%</div>
+    </div>
+    <main class="content">
+      <section class="social-icon">
 
 
-      <a href="https://www.facebook.com/profile.php?id=100083795892462"><i class="fa fa-facebook"
-          aria-hidden="true"></i></a>
-      <a href="https://instagram.com/skeleton_developer771469?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-instagram"
-          aria-hidden="true"></i></a>
-      <a href="https://www.snapchat.com/add/zakighouri69?share_id=6bqkF7buCtk&locale=en-US"><i
-          class="fa fa-snapchat-ghost" aria-hidden="true"></i></a>
-      <a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-      <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100083795892462"><i class="fa fa-facebook"
+            aria-hidden="true"></i></a>
+        <a href="https://instagram.com/skeleton_developer771469?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-instagram"
+            aria-hidden="true"></i></a>
+        <a href="https://www.snapchat.com/add/zakighouri69?share_id=6bqkF7buCtk&locale=en-US"><i
+            class="fa fa-snapchat-ghost" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 
 
-    </section>
-    <div class="container" id="home">
+      </section>
+      <div class="container" id="home">
 
 
   </header>
   <nav>
-    <h5>Zaki Protfolio</h5>
+    <h5><span>Z</span>aki Protfolio</h5>
     <div class="Navbar__Link Navbar__Link-toggle">
       <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
@@ -239,7 +244,7 @@
   <div class="tcontainer" id="contactform">
     <div class="form-feild">
       <div class="fhead">
-        contact form
+        GET IN TOUCH
       </div>
       <div class="input-feild">
         <form action="" name="submit-to-google-sheet">
@@ -252,13 +257,14 @@
           </div>
         </form>
       </div>
-     
+
     </div>
     <footer class="footer">
       <div class="footer-left col-md-6 col-md-6">
         <p class="about">
-          <span>Zaki|Portfolio</span>"As a web developer with 1 year of experience, I've honed my skills in HTML, CSS, and JavaScript, 
-          working on various projects to create functional and visually appealing" 
+          <span>Zaki|Portfolio</span>"As a web developer with 1 year of experience, I've honed my skills in HTML, CSS,
+          and JavaScript,
+          working on various projects to create functional and visually appealing"
         </p>
         <div class="icons social-icon">
           <a href="#"><i class="fa fa-facebook"></i></a>
@@ -295,60 +301,107 @@
         <p class="name">ZK SOFTWAREHOUSE &copy; 2023</p>
       </div>
     </footer>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed('#element', {
-        strings: ['Passionate dev', 'web developer', 'backened dev', 'web designer'],
-        typeSpeed: 60,
-        loop: true,
+    </main>
+    
+  </div>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Passionate dev', 'web developer', 'backened dev', 'web designer'],
+      typeSpeed: 60,
+      loop: true,
 
-      });
-    </script>
-
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbw8GmLZfvyBYk0iYLrk5O1jN7NOV8wuVlHFHhTst8cgqMhlayhEuCjs81T-574l38Fg/exec'
-      const form = document.forms['submit-to-google-sheet']
-      const msg = document.getElementById("msg")
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-          .then(response => {
-            msg.innerHTML = "Message sent successfully"
-            setTimeout(function () {
-              msg.innerHTML = ""
-            }, 5000)
-            form.reset()
-          })
-          .catch(error => console.error('Error!', error.message))
-      })
+    });
+  </script>
 
 
-    </script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        const toggleLink = document.querySelector('.Navbar__Link-toggle');
-        const closeButton = document.querySelector('#closeButton');
-        const ul = document.querySelector('nav ul');
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw8GmLZfvyBYk0iYLrk5O1jN7NOV8wuVlHFHhTst8cgqMhlayhEuCjs81T-574l38Fg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
 
-        function toggleMenu() {
-          ul.classList.toggle('Navbar__ToggleShow');
-          toggleLink.style.display = 'none';
-          closeButton.style.display = 'block';
-        }
 
-        function closeMenu() {
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleLink = document.querySelector('.Navbar__Link-toggle');
+      const closeButton = document.querySelector('#closeButton');
+      const ul = document.querySelector('nav ul');
+
+      function toggleMenu() {
+        ul.classList.toggle('Navbar__ToggleShow');
+        toggleLink.style.display = 'none';
+        closeButton.style.display = 'block';
+      }
+
+      function closeMenu() {
+        ul.classList.remove('Navbar__ToggleShow');
+        toggleLink.style.display = 'block';
+        closeButton.style.display = 'none';
+      }
+
+      toggleLink.addEventListener('click', toggleMenu);
+      closeButton.addEventListener('click', closeMenu);
+
+      // Add this part to close the menu when a navigation link is clicked
+      const navLinks = document.querySelectorAll('nav ul li a');
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
           ul.classList.remove('Navbar__ToggleShow');
           toggleLink.style.display = 'block';
           closeButton.style.display = 'none';
-        }
-
-        toggleLink.addEventListener('click', toggleMenu);
-        closeButton.addEventListener('click', closeMenu);
+        });
       });
+    });
+    
+
+    var i = 0;
+
+function progress() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("progressBar");
+    var content = document.getElementById("content");
+    var width = 1; // Start at 1%
+    var id = setInterval(frame, 10);
+
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+        i = 0;
+
+        // Hide the progress bar and show the content when loading is complete
+        elem.style.display = "none";
+        content.style.display = "block";
+      } else {
+        width++;
+        elem.style.width = width + "%";
+        elem.innerHTML = width + "%";
+      }
+    }
+  }
+}
+
+// Simulate loading by calling the progress function
+window.addEventListener('load', function () {
+  progress();
+});
 
 
 
-    </script>
+  </script>
 </body>
 
 </html>
