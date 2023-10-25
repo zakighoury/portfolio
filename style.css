@@ -20,7 +20,24 @@ body {
   scroll-behavior: smooth;
 }
 
-
+.villan a{
+  color: #000;
+  font-weight: 800;
+  padding: 8px 8px;
+  text-decoration: none;
+  background-color: #fff;
+  /* border: #000; */
+  border-radius: 5px;
+}
+.villan  a{
+  text-decoration: none;
+  /* color: #000; */
+} 
+.villan a:hover{
+  /* padding: 15px 2px; */
+  background-color: #000;
+  color: #fff;
+}
 .social-icon {
   background-color: #000;
   color: #fff;
@@ -88,6 +105,7 @@ nav h5 {
 }
 
 .villan {
+  padding: 8px;
   color: #fff;
   text-align: justify;
   text-transform: uppercase;
@@ -507,7 +525,7 @@ nav ul li :hover {
   color: #fff;
 }
 
-button {
+.btn {
   letter-spacing: 2px;
   border-radius: 4px;
   display: block;
@@ -542,7 +560,7 @@ button {
   color: aquamarine;
 }
 
-button:hover {
+.btn:hover {
   color: orange;
   background-color: cyan;
 }
