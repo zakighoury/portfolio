@@ -21,7 +21,7 @@
   <link rel="icon" type="image/x-icon" href="images-removebg-preview.png" alt="Zaki's Portfolio Logo">
   <!-- <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script> -->
 
-
+  
 <body>
   <header>
  
@@ -334,6 +334,7 @@
 
 
   </script>
+  
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const toggleLink = document.querySelector('.Navbar__Link-toggle');
@@ -371,6 +372,227 @@
 
 
   </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+
+<script>
+
+ gsap.from("nav ul", {
+    opacity: 0,
+    y: -50,
+    duration: 1.4,
+    scrollTrigger: {
+      trigger: "nav ul ",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      // markers: true
+    }
+  });
+  
+ gsap.from("nav h5", {
+    opacity: 0,
+    y: -50,
+    duration: 1.4,
+    scrollTrigger: {
+      trigger: "nav h5",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      // markers: true
+    }
+  });
+ gsap.from(".fa-facebook", {
+    opacity: 0,
+    x: -140,
+    duration: 1.4,
+    scrollTrigger: {
+      trigger: ".fa-facebook",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      // markers: true
+    }
+  });
+ gsap.from(".fa-instagram", {
+    opacity: 0,
+    x: -110,
+    duration: 0.90,
+    scrollTrigger: {
+      trigger: ".fa-instagram",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      // markers: true
+    }
+  });
+ gsap.from(".fa-snapchat-ghost", {
+    opacity: 0,
+    x: -80,
+    duration: 0.60,
+    scrollTrigger: {
+      trigger: ".fa-snapchat-ghost",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      // markers: true
+    }
+  });
+ gsap.from(".fa-pinterest-p", {
+    opacity: 0,
+    x: 80,
+    duration: 0.60,
+    scrollTrigger: {
+      trigger: ".fa-pinterest-p",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      // markers: true
+    }
+  });
+ gsap.from(".fa-twitter", {
+    opacity: 0,
+    x: 110,
+    duration: 0.90,
+    scrollTrigger: {
+      trigger: ".fa-twitter",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      // markers: true
+    }
+  });
+
+ gsap.from(".fa-linkedin", {
+    opacity: 0,
+    x: 140,
+    duration: 1.4,
+    scrollTrigger: {
+      trigger: ".fa-linkedin",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      // markers: true
+    }
+  });
+
+  gsap.from(".head", {
+    opacity: 0,
+    y: -100,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".head",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      // markers: true
+    }
+  });
+  gsap.from(".villan", {
+    opacity: 0,
+    x: -200,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".villan",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      // markers: true
+    }
+  });
+
+  gsap.from(".grandvillan", {
+    opacity: 0,
+    x: 200,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".grandvillan",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      // markers: true
+    }
+  });
+
+  gsap.from(".about_img", {
+    opacity: 0,
+    x: 200,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".about_img",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      // markers: true
+    }
+  });
+
+  gsap.from(".para", {
+    opacity: 0,
+    x: -200,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".para",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      
+    }
+  });
+  gsap.from(".skills", {
+    opacity: 0,
+    x: 200,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".skills",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      
+    }
+  });
+  gsap.from(".card", {
+    opacity: 0,
+    x: -200,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".card",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      
+    }
+  });
+  gsap.from(".tcontainer", {
+    opacity: 0,
+    x: 200,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".tcontainer",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      
+    }
+  });
+  gsap.from(".project", {
+    opacity: 0,
+    x: -200,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".project",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      
+    }
+  });
+
+</script>
+
+  
+  
 </body>
 
 </html>
