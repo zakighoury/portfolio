@@ -829,7 +829,9 @@ nav ul li :hover {
   .footer .footer-center i {
     margin-left: 0;
   }
-
+  .footer .footer-center{
+    padding: 10px;
+  }
   nav a {
     margin-left: 0;
     /* color: #fff; */
