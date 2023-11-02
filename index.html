@@ -46,7 +46,7 @@
 
   </header>
   <nav>
-    <h5><span>Z</span>aki Protfolio</h5>
+    <h5><span>Z</span>AKE GHOURY</h5>
     <div class="Navbar__Link Navbar__Link-toggle">
       <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
@@ -64,12 +64,16 @@
 
   <div class="hero" id="home">
     <div class="villan">
-      <h1>Hello <br> i am muhammad zaki <br><span id="element"></span></h1><br>
+      <h1>Hello, <br> i am <span id="light">z</span>ake <span id="light">g</span>houry <br></h1><span id="element"></span><br>
       <a href="Zaki.Cv.pdf" download="">Download Cv</a>
 
     </div>
     <div class="grandvillan">
-      <img src="e24a5441-0885-4cb3-8768-600b06902d75_1-removebg-preview.png" alt="">
+      <img src="1_auto_x2.jpg" alt="">
+    <div class="box">
+      
+    </div>
+    
     </div>
   </div>
   <section class="data" id="about">
@@ -277,7 +281,7 @@
       <div class="footer-center col-md-4 col-sm-6">
         <div>
           <i class="fa fa-map-marker"></i>
-          <p><span> Street name and number</span>Karachi,Pakistan</p>
+          <p><span> </span>Karachi,Pakistan</p>
         </div>
         <div>
           <i class="fa fa-phone"></i>
@@ -540,48 +544,110 @@
       
     }
   });
-  gsap.from(".skills", {
+  gsap.from(".header", {
     opacity: 0,
     x: 200,
     duration: 1,
     scrollTrigger: {
-      trigger: ".skills",
+      trigger: ".header",
       scroller: "body",
       start: "top 80%",  // Adjust the start point based on your preference
       end: "center",    // Adjust the end point based on your preference
       
     }
   });
-  gsap.from(".card", {
+  gsap.from(".body", {
     opacity: 0,
     x: -200,
     duration: 1,
     scrollTrigger: {
-      trigger: ".card",
+      trigger: ".body",
       scroller: "body",
       start: "top 80%",  // Adjust the start point based on your preference
       end: "center",    // Adjust the end point based on your preference
       
     }
   });
-  gsap.from(".tcontainer", {
+  gsap.from(".skill_heading", {
     opacity: 0,
     x: 200,
     duration: 1,
     scrollTrigger: {
-      trigger: ".tcontainer",
+      trigger: ".skill_heading",
       scroller: "body",
       start: "top 80%",  // Adjust the start point based on your preference
       end: "center",    // Adjust the end point based on your preference
       
     }
   });
-  gsap.from(".project", {
+  gsap.from(".skill", {
     opacity: 0,
     x: -200,
     duration: 1,
     scrollTrigger: {
-      trigger: ".project",
+      trigger: ".skill",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      
+    }
+  });
+  
+  gsap.from(".tproject", {
+    opacity: 0,
+    x: 300,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".tproject",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      
+    }
+  });
+  gsap.from(".scard", {
+    opacity: 0,
+    x: -300,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".scard",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      
+    }
+  });
+  gsap.from(".footer", {
+    opacity: 0,
+    y: -300,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".footer",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      
+    }
+  });
+  
+  gsap.from("form", {
+    opacity: 0,
+    x: 300,
+    duration: 1,
+    scrollTrigger: {
+      trigger: "form",
+      scroller: "body",
+      start: "top 80%",  // Adjust the start point based on your preference
+      end: "center",    // Adjust the end point based on your preference
+      
+    }
+  });
+  gsap.from(".fhead", {
+    opacity: 0,
+    x: -300,
+    duration: 1,
+    scrollTrigger: {
+      trigger: ".fhead",
       scroller: "body",
       start: "top 80%",  // Adjust the start point based on your preference
       end: "center",    // Adjust the end point based on your preference
